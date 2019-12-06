@@ -1,0 +1,49 @@
+html {
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin:0;
+}
+
+#side_left{
+width:500px;
+height:350px;
+float:left;
+margin:60px;
+}
+
+#side_right{
+width:600px;
+height:600px;
+float:left;
+margin:55px;
+}
+
+h1 {
+color:white;
+}
+
+h2 {
+color:white;
+}
+
+.s013 {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../images/Searchs_013.png");
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+}
